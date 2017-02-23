@@ -31,7 +31,12 @@ ul.navi li a p:hover {
 }
 ul.navi li.midchild {
 	position: relative;
-	left: 170px;
+	left: 140px;
+	border: 0px;
+}
+ul.navi li.midchild2{
+	position:relative;
+	left: 140px;
 	border: 0px;
 }
 ul.navi li.lastchild {
@@ -145,7 +150,7 @@ img.quartetleft:hover,img.quartetright:hover {
 }
 div.navpills {
 	position: relative;
-	top:120px;
+	top:80px;
 	z-index:4;
 }
 .navtabs {
@@ -158,7 +163,7 @@ div.navpills {
 }
 footer {
 	width: 100%;
-	height: 100px;
+	height: 150px;
 	background-color:#ccc;
 	text-align: center;
 	padding:5px;
@@ -303,4 +308,8 @@ i.red{
 div.sizes {
 	height: 200px;
 	width: 200px;
+}
+.footercontent {
+	font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
+	font-size: 1em;
 }
